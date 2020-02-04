@@ -16,40 +16,51 @@
 <body>
     <header class="d-flex flex-column">
         <nav class="header__nav">
-            <div class="container d-flex justify-content-between align-items-center">
-                <a href="index.html"><img src="Pictures/logo.png" alt="error"></a>
-                <ul class="header__menu d-flex col-6 justify-content-between">
-                    <li><a href="../Lesson 18/Home/index.html" class="header_link">home</a></li>
-                    <li><a href="../Lesson 18/About/index.html" class="header_link">about</a></li>
-                    <li><a href="../Lesson 18/Project Single/index.html" class="header_link">work</a></li>
-                    <li><a href="" class="header_link">process</a></li>
-                    <li><a href="" class="header_link">services</a></li>
-                    <li><a href="" class="header_link">testimonials</a></li>
-                    <li><a href="../Lesson 18/Contact/index.html" class="header_link">contact</a></li>
-                </ul>
+            <div class="container">
+                <div class="row justify-content-between flex-column flex-sm-row">
+                    <a href="index.html"><img src="Pictures/logo.png" alt="error"></a>
+                    <button class="navbar-toggler d-block d-md-none" type="button" data-toggle="collapse"
+                        data-target="#navbar-bars" aria-controls="navbar-bars"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"><i class="fad fa-bars"></i></span>
+                    </button>
+                    <ul class="header__menu d-md-flex col-12 col-md-8 justify-content-between collapse navbar-collapse text-center" id="navbar-bars">
+                        <li><a href="../Lesson 18/Home/index.html" class="header_link">home</a></li>
+                        <li><a href="../Lesson 18/About/index.html" class="header_link">about</a></li>
+                        <li><a href="../Lesson 18/Project Single/index.html" class="header_link">work</a></li>
+                        <li><a href="" class="header_link">process</a></li>
+                        <li><a href="" class="header_link">services</a></li>
+                        <li><a href="" class="header_link">testimonials</a></li>
+                        <li><a href="../Lesson 18/Contact/index.html" class="header_link">contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <div class="header__content d-flex justify-content-start align-items-center">
-            <div class="container justify-content-start">
-                <h3>We Design and Develop</h3>
-                <p>We are a new design studio based in USA. We have over
-                    20 years of combined experience, and know a thing or two
-                    about designing websites and mobile apps.</p>
-                <a href="">contact us</a>
+            <div class="container">
+                <div class="row flex-column align-items-start">
+                    <h3 class="col-12 col-md-10 col-lg-6">We Design and Develop</h3>
+                    <p class="col-12 col-md-10 col-lg-6">We are a new design studio based in USA. We have over
+                        20 years of combined experience, and know a thing or two
+                        about designing websites and mobile apps.</p class="col-12 col-md-5">
+                    <a href="">contact us</a>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="main__about d-flex flex-column align-items-center col-6 justify-content-center">
-                <h3>About Us</h3>
-                <p>Divide have don't man wherein air fourth. Own itself make have night won't make.
-                A you under Seed appear which good give. Own give air without fowl moveth dry first
-                heaven fruit, dominion she'd won't very all.
-                </p>
-                <img src="Pictures/Signature.png" alt="error">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center">
+                <div class="main__about d-flex flex-column align-items-center col-12 col-md-6 justify-content-center">
+                    <h3>About Us</h3>
+                    <p>Divide have don't man wherein air fourth. Own itself make have night won't make.
+                        A you under Seed appear which good give. Own give air without fowl moveth dry first
+                        heaven fruit, dominion she'd won't very all.
+                    </p>
+                    <img class="d-none d-md-flex" src="Pictures/Signature.png" alt="error">
+                </div>
             </div>
         </div>
 
@@ -84,25 +95,28 @@
 
         <div class="pbnew">
             <div class="container">
-                <div class="row d-flex flex-column justify-content-center">
-                    <div class="col-6">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex flex-column justify-content-center">
                         <h3>Professional skills</h3>
-                        
+
                         <p>ui/ux design<span>75%</span></p>
                         <div class="progress" style="height: 3px;">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-    
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
                         <p>web development<span>90%</span></p>
                         <div class="progress" style="height: 3px;">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-    
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 90%"
+                                aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
                         <p>marketing<span>65%</span></p>
                         <div class="progress" style="height: 3px;">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <img src="Pictures/MacBook.jpg" alt="error">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 65%"
+                                aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <img class="d-none d-md-flex" src="Pictures/MacBook.jpg" alt="error">
                     </div>
                 </div>
             </div>
@@ -110,131 +124,149 @@
 
 
         <div class="green__place d-flex align-items-center">
-            <div class="container d-flex justify-content-between">
-                <div class="green_item d-flex flex-column align-items-center">
-                    <p class="pe-7s-portfolio icon"></p>
-                    <p class="number">548</p>
-                    <p class="number1">project complater</p>
-                </div>
-                <div class="green_item d-flex flex-column align-items-center">
-                    <p class="pe-7s-clock icon"></p>
-                    <p class="number">548</p>
-                    <p class="number1">working hours</p>
-                </div>
-                <div class="green_item d-flex flex-column align-items-center">
-                    <p class="pe-7s-star icon"></p>
-                    <p class="number">548</p>
-                    <p class="number1">positive feedbacks</p>
-                </div>
-                <div class="green_item d-flex flex-column align-items-center">
-                    <p class="pe-7s-like icon"></p>
-                    <p class="number">548</p>
-                    <p class="number1">happy clients</p>
+            <div class="container">
+                <div class="row  d-flex justify-content-between">
+                    <div class="green_item col-12 col-md-6 col-lg  d-flex flex-column align-items-center">
+                        <p class="pe-7s-portfolio icon"></p>
+                        <p class="number">548</p>
+                        <p class="number1">project complater</p>
+                    </div>
+                    <div class="green_item col-12 col-md-6 col-lg  d-flex flex-column align-items-center">
+                        <p class="pe-7s-clock icon"></p>
+                        <p class="number">548</p>
+                        <p class="number1">working hours</p>
+                    </div>
+                    <div class="green_item col-12 col-md-6 col-lg  d-flex flex-column align-items-center">
+                        <p class="pe-7s-star icon"></p>
+                        <p class="number">548</p>
+                        <p class="number1">positive feedbacks</p>
+                    </div>
+                    <div class="green_item col-12 col-md-6 col-lg  d-flex flex-column align-items-center">
+                        <p class="pe-7s-like icon"></p>
+                        <p class="number">548</p>
+                        <p class="number1">happy clients</p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="container-fluid">
             <div class="row">
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-1.png" alt="error">
-                <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-2.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-3.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-4.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-5.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-6.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-7.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
-            <div class="oko__placeholder col-3">
-                <img src="Pictures/pic-8.png" alt="error">
-            <a href="" class="oko"><p class="pe-7s-look"></p></a>
-            </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-1.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-2.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-3.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-4.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-5.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-6.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-7.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
+                <div class="oko__placeholder col-12 col-md-6 col-lg-3">
+                    <img src="Pictures/pic-8.png" alt="error">
+                    <a href="" class="oko">
+                        <p class="pe-7s-look"></p>
+                    </a>
+                </div>
             </div>
         </div>
         <div class="green__load d-flex justify-content-center align-items-center">
             <p>load more work</p>
         </div>
 
-        <div class="work__process d-flex flex-column align-items-center justify-content-center">
+        <!-- <div class="work__process d-flex flex-column align-items-center justify-content-center">
             <h3>Our Work Process</h3>
             <p>Was years it seasons was there form he in in them together over that, 
             third sixth gathered female creeping bearing behold years.</p>
             <img class="video" src="Pictures/VideoPic.png" alt="error">
             <img class="play" src="Pictures/arrow.png" alt="error">
-        </div>
+        </div> -->
 
         <div class="colorbg d-flex flex-wrap justify-content-center">
-            <div class="row">
-                <div class="container d-flex justify-content-between flex-wrap align-items-center">
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+            <div class="container">
+                <div class="row d-flex justify-content-between flex-wrap align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-diamond icon"></p>
                         <h4>ui/ux design</h4>
-                        <p class="text">Be set fourth land god darkness 
+                        <p class="text">Be set fourth land god darkness
                             make it wherein own</p>
                     </div>
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-arc icon"></p>
                         <h4>web development</h4>
-                        <p class="text">A she'd them bring void moving 
+                        <p class="text">A she'd them bring void moving
                             third she'd kind fill</p>
                     </div>
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-phone icon"></p>
                         <h4>app / mobile</h4>
                         <p class="text">Dominion man second spirit he,
                             earth they're creeping</p>
                     </div>
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-joy icon"></p>
                         <h4>game design</h4>
-                        <p class="text">Morning his saying moveth it 
+                        <p class="text">Morning his saying moveth it
                             multiply appear life be</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="container d-flex justify-content-between align-items-center">
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+            <div class="container">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-plane icon"></p>
                         <h4>seo / marketing</h4>
-                        <p class="text">Give won't after land fill creeping 
+                        <p class="text">Give won't after land fill creeping
                             meat you, may</p>
                     </div>
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-star icon"></p>
                         <h4>photographi</h4>
-                        <p class="text">Creepeth one seas cattle grass 
+                        <p class="text">Creepeth one seas cattle grass
                             give moving saw give</p>
                     </div>
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-magic-wand icon"></p>
                         <h4>graphic design</h4>
-                        <p class="text">Open, great whales air rule for, 
+                        <p class="text">Open, great whales air rule for,
                             fourth life whales</p>
                     </div>
-                    <div class="item__design col-3 d-flex flex-column align-items-center">
+                    <div class="item__design col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
                         <p class="pe-7s-paint-bucket icon"></p>
                         <h4>illustration</h4>
-                        <p class="text">Whales likeness hath, man kind 
+                        <p class="text">Whales likeness hath, man kind
                             for them air two won't</p>
                     </div>
                 </div>
@@ -244,111 +276,127 @@
 
         <div class="carousel__bg ">
             <div id="carousel" class="carousel slide" data-ride="carousel">
-                
+
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure 
-                        to work with them on a sizable first project and am looking 
-                        forward to start the next one asap.”</p>
+                    <div class="carousel-item active">
+                        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                            to work with them on a sizable first project and am looking
+                            forward to start the next one asap.”</p>
                         <span>Michael Hopkins</span>
-                  </div>
-                  <div class="carousel-item">
-                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure 
-                        to work with them on a sizable first project and am looking 
-                        forward to start the next one asap.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                            to work with them on a sizable first project and am looking
+                            forward to start the next one asap.”</p>
                         <span>Michael Hopkins</span>
-                  </div>
-                  <div class="carousel-item">
-                    <p>“ Outstanding job and exceeded all expectations. It was a pleasure 
-                        to work with them on a sizable first project and am looking 
-                        forward to start the next one asap.”</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                            to work with them on a sizable first project and am looking
+                            forward to start the next one asap.”</p>
                         <span>Michael Hopkins</span>
-                  </div>
-                  
+                    </div>
+
                 </div>
                 <ol class="carousel-indicators">
                     <i data-target="#carousel" data-slide-to="0" class="icon__carousel fas fa-circle active"></i>
                     <i data-target="#carousel" data-slide-to="1" class="icon__carousel fas fa-circle"></i>
                     <i data-target="#carousel" data-slide-to="2" class="icon__carousel fas fa-circle"></i>
-                  </ol>
+                </ol>
 
-              </div>
+            </div>
         </div>
 
-        <div class="container img__logo d-flex justify-content-between align-items-center">
-            <div class="img-logo">
-                <img src="Pictures/1.png" alt="error">
-            </div>
-            <div class="img-logo">
-                <img src="Pictures/2.png" alt="error">
-            </div>
-            <div class="img-logo">
-                <img src="Pictures/3.png" alt="error">
-            </div>
-            <div class="img-logo">
-                <img src="Pictures/4.png" alt="error">
+        <div class="container img__logo">
+            <div class="row  d-flex justify-content-between align-items-center">
+                <div class="img-logo d-flex justify-content-center col-12 col-md-6 col-lg-2">
+                    <img src="Pictures/1.png" alt="error">
+                </div>
+                <div class="img-logo d-flex justify-content-center col-12 col-md-6 col-lg-2">
+                    <img src="Pictures/2.png" alt="error">
+                </div>
+                <div class="img-logo d-flex justify-content-center col-12 col-md-6 col-lg-2">
+                    <img src="Pictures/3.png" alt="error">
+                </div>
+                <div class="img-logo d-flex justify-content-center col-12 col-md-6 col-lg-2">
+                    <img src="Pictures/4.png" alt="error">
+                </div>
             </div>
         </div>
 
         <div class="comment__bg">
-            <div class="container d-flex flex-column align-items-center">
-                <h3>Need a Project?</h3>
-                <p>Let us know what you're looking for in an agency. We'll take a look and see 
-                    if this could be the start of something beautiful.</p>
-                <p>Let us know what you're looking for in an agency. We'll take a look and see 
-                    if this could be the start of something beautiful.</p>
-                
-                <form action="">
-                    <fieldset class="d-flex">
-                        <div class="user-name-email d-flex justify-content-between">
-                        <input class="user-name" type="text" placeholder="Your Name" name="user-name">
-                        <input class="user-email" type="email" placeholder="Your e-mail" name="user-email">
-                        </div>
-                        <input class="user-title" type="text" placeholder="Your Title" name="user-title">
-                        <textarea class="user-text" name="user-text" id="" cols="30" rows="10" placeholder="Your Comment"></textarea>
-                    </fieldset>
-                    
-                </form>
-                <button id="button" type="submit">send message</button>
-                
+            <div class="container">
+                <div class="row  d-flex flex-column align-items-center">
+                    <h3 class="col-12 text-center">Need a Project?</h3>
+                    <p class="col-10 col-md-7">Let us know what you're looking for in an agency. We'll take a look and
+                        see
+                        if this could be the start of something beautiful.</p>
+                    <p class="col-10 col-md-7">Let us know what you're looking for in an agency. We'll take a look and
+                        see
+                        if this could be the start of something beautiful.</p>
+
+                    <form action="">
+                        <fieldset class="col-12" style="width: 100%;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="user-name-email d-flex justify-content-between" style="width: 100%;">
+                                        <input class="user-name col-6" type="text" placeholder="Your Name"
+                                            name="user-name">
+                                        <input class="user-email col-5" type="email" placeholder="Your e-mail"
+                                            name="user-email">
+                                    </div>
+                                    <input class="user-title col-12" type="text" placeholder="Your Title"
+                                        name="user-title">
+                                    <textarea class="user-text col-12" name="user-text" id="" cols="30" rows="10"
+                                        placeholder="Your Comment"></textarea>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                    </form>
+                    <button id="button" type="submit">send message</button>
+                </div>
+
             </div>
         </div>
 
         <footer>
-            <div class="container d-flex justify-content-between align-items-center">
-                <div class="left">
-                    <h4>Macintosh Design, Inc.</h4>
-                    <p>© 2017 Macintosh. All rights reserved.</p>
-                    <p>Designed by Jefry.</p>
-                </div>
-                <div class="middle">
-                    <a href="">hello@pirolltheme.com</a> <br>
-                    <a href="+(44) 987 - 065 - 908">+44 987 065 908</a>
-                </div>
-                <div class="right d-flex justify-content-between col-3">
-                    <div>
-                        <ul>
-                            <li><a href="">Project</a></li>
-                            <li><a href="">About</a></li>
-                            <li><a href="">Services</a></li>
-                            <li><a href="">Carreer</a></li>
-                        </ul>
+            <div class="container d-flex align-items-center justify-content-center">
+                <div class="row d-flex justify-content-between align-items-center">
+                    <div class="left col-12 col-md-6 col-lg-3">
+                        <h4>Macintosh Design, Inc.</h4>
+                        <p>© 2017 Macintosh. All rights reserved.</p>
+                        <p>Designed by Jefry.</p>
                     </div>
-                    <div>
-                        <ul>
-                            <li><a href="">News</a></li>
-                            <li><a href="">Events</a></li>
-                            <li><a href="">Contact</a></li>
-                            <li><a href="">Legals</a></li>
-                        </ul>
+                    <div class="middle col-12 col-md-6 col-lg-3">
+                        <a href="">hello@pirolltheme.com</a> <br>
+                        <a href="+(44) 987 - 065 - 908">+44 987 065 908</a>
                     </div>
-                    <div>
-                        <ul>
-                            <li><a href="">Facebook</a></li>
-                            <li><a href="">Twitter</a></li>
-                            <li><a href="">Instagram</a></li>
-                            <li><a href="">Drobble</a></li>
-                        </ul>
+                    <div class="right col-12 col-md-6 col-lg-3 d-flex justify-content-between">
+                        <div>
+                            <ul>
+                                <li><a href="">Project</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Carreer</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="">News</a></li>
+                                <li><a href="">Events</a></li>
+                                <li><a href="">Contact</a></li>
+                                <li><a href="">Legals</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="">Facebook</a></li>
+                                <li><a href="">Twitter</a></li>
+                                <li><a href="">Instagram</a></li>
+                                <li><a href="">Drobble</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
